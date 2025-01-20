@@ -64,7 +64,12 @@ header {                 /*The header sec propeties are here */
    align-items: center;
    
 }
- 
+ .top-icon > #me{
+    border: none;
+    text-align: center;
+    margin-left: -15px;
+}
+
 .top-icon:hover {
     opacity: 0.5;
 }
