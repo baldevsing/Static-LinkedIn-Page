@@ -1,0 +1,609 @@
+body{
+    background-color: rgb(211, 211, 211);
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {                 /*The header sec propeties are here */
+    
+    height: 60px;
+    background-color: white;
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {                /*in side the header sec we create a 3 sec in that first sec (Left-bar) Linkedin Logo properties */
+    height: 40px;
+    margin-right: 10px;
+}
+.left-section {  /*Inside the header sec the LEFT SECTION Properties */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 300px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.search-box {
+    padding: 10px;
+    border: 1px solid rgba(199, 192, 192, 0.5);
+    background-color: rgba(175, 211, 233, 0.349);
+    width: 300px;
+    height: 20px;
+ }
+
+
+.middle-section {        /*Inside the header sec the MIDDLE SECTION Properties */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin-right: 0;
+    margin-left: 20px;
+    
+}
+.home{         /*Image icons that we are used in the page */
+    height: 20px;
+    padding-left: 10px;
+    
+}
+
+
+.top-icon{         /*Image icons div we used */
+    align-items: center;
+    display: flexbox;
+    justify-items: center;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.top-icon > img {
+   align-items: center;
+   
+}
+ 
+.top-icon:hover {
+    opacity: 0.5;
+}
+.top-icon > label{
+    text-align: center;
+}
+.right-section {      /*Inside the header sec the RIGHT SECTION Properties */
+    display: flex;
+    border-left: solid 2px rgba(199, 192, 192, 0.5);
+    margin-right: 30px;
+   width: 300px;
+    justify-content: start;
+    padding-left: 10px;
+}
+main{                       /* Main section */
+    margin-top: 30px;
+    
+}
+.main-container{          /* Inside the main sec - created a 2 parts of main 1 and main 2*/
+                            /* this the main sec part 1 properties*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+  
+}
+.left-bar{                  /* left sec start from here*/
+    width: 20%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: block;
+ 
+}
+.nav-bar{                  /* Middle sec start from here*/
+    width: 60%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.right-bar{                  /* Right sec start from here*/
+    width: 20%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.main-container2{             /* Inside the main sec - created a 2 parts of main 1 and main 2*/
+                               /* this the main sec part 2 properties*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+  
+}
+.left-bar2{                           /* left sec2  start from here*/
+    width: 20%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -200px;
+
+}
+.main-bar{                                /* Middle sec2 start from here*/
+    width: 60%;
+    height: 2180px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -400px;
+    
+}
+.right-bar2{                                /* Right sec2 start from here*/
+    width: 20%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+}
+.input{                      /*This sec is middle of the Main sec1 for share a post*/
+    width: 98%;
+    height: 100px;
+    display: flex;
+    padding: 10px;
+    border-bottom: solid 2px rgba(199, 192, 192, 0.5);
+    
+    
+}
+.input > img{                    /* be side the share a post we see a user pic*/
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 70px;
+}
+.input > input{             /*this sec contists a share a post option*/
+    margin-left: 10px;
+    border-radius: 40px;
+    font-size: 20px;
+    width: 80%;
+    height: 60px;
+    margin-top: 20px;
+    padding-left: 30px;
+    
+}
+.input-img{                     /*this sec is a under the share a post we see the option like photo, video, arite article*/
+    width: 98%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.input-img > img{             /*this are img the have under the share a post*/
+    display: flex;
+    height: 40px;
+    padding: 10px 20px;
+}
+.input-img > a{                 /*this are names of the img icons the have under the share a post*/
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+    margin-left: -70px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+.input-img > img:hover{
+    opacity: 0.5;
+}
+.input-img > a:hover{
+    opacity: 0.5;
+}
+
+.left-top{                     /*this sec consists of the user details*/
+    display: flex;
+    height: 20%;
+    background-color: red;                            
+  background-image: linear-gradient(to right, red , yellow);
+  border-radius: 10px;
+    
+   
+}
+.profile{                      /*user profile pic properties*/
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px ;
+    margin-left: 30%;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.1);
+} 
+.profile > img{                  /*user profile pic */
+    height: 100px;
+    border-radius: 100%;
+}
+ h2{                           /* name of the user that located left side of the webpage*/
+    text-align: center;
+    margin-top: 5px;
+}
+p{
+    text-align: center;
+   margin-top: -10px;
+}
+
+#bold{
+    font-weight: bold;
+    padding-left: 20px;
+    margin-top: -50px;
+}
+
+.connections2{
+    padding-top: 20px;
+}
+.about{
+    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;    
+}
+#select{
+    width: 40%;
+    margin-left: 5%;
+    height: 35px;
+    border: none;
+    font-weight: bold;
+}
+li{
+font-weight: bold;
+}
+li > p{
+    font-weight: lighter;
+}
+#Puzzles{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#Puzzles > ol > li{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#Puzzles > ol > li > p{
+    font-size: 10px;
+    font-weight: lighter;
+  
+}
+
+.left-bar2 > strong{             /*Inside the MAIN SECTION 2 the left bar 2 properties*/
+    font-weight: thin;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+   opacity: 0.8;
+}
+.left-bar2 > ul{
+    font-weight:thin;
+    padding-left: 20px;
+    
+}
+.left-bar2 > ul > li{
+    font-weight: thin;
+    padding-bottom: 12px;
+    list-style-type: none;
+    color: grey;
+}
+.amazon{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+   
+   
+}
+.amazon > img{
+    height: 50px;
+    width: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.amazon > h3{
+    padding-left: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -55px;
+}
+.amazon > h3:hover{
+    opacity: 0.5;
+}
+.amazon > p{
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left:70px;
+    margin-top: -10px;
+    text-align: start;
+}
+.amazon > #followers{
+    padding-top: 10px;
+   margin-left: 70px;
+}
+.amazon > button{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 70px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+.amazon > button:hover{
+    background-color: rgb(89, 89, 244);
+    color: white;
+    border: 2px solid black;
+}
+
+.google{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+    border-top: solid 1px grey;
+   
+}
+.google > img{
+    height: 50px;
+    width: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.google > h3{
+    padding-left: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -55px;
+}
+.google > h3:hover{
+    opacity: 0.5;
+}
+
+.google > p{
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left:70px;
+    margin-top: -10px;
+    text-align: start;
+}
+.google > #followers{
+    padding-top: 10px;
+   margin-left: 70px;
+}
+.google > button{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 70px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+}
+.google > button:hover{
+    background-color: rgb(89, 89, 244);
+    color: white;
+    border: 2px solid black;
+}
+ 
+.infosys{
+    margin: 10px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+    border-top: solid 1px grey;
+   
+}
+.infosys > img{
+    height: 50px;
+    width: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.infosys > h3{
+    padding-left: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -55px;
+}
+.infosys > h3:hover{
+    opacity: 0.5;
+}
+
+.infosys > p{
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left:70px;
+    margin-top: -10px;
+    text-align: start;
+}
+.infosys > #followers{
+    padding-top: 10px;
+   margin-left: 70px;
+}
+.infosys > button{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 70px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+}
+.infosys > button:hover{
+    background-color: rgb(89, 89, 244);
+    color: white;
+    border: 2px solid black;
+}
+.main-img{                     
+    height: 80px;
+    width: 100%;
+}
+.main-img > img{
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+}
+.main-img > h3{
+    text-align: start;
+    padding-left: 120px;
+    margin-top: -90px;
+}
+.main-img > p{
+    text-align: start;
+    padding-left: 120px;
+}
+#aws-pg{
+    text-align: start;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#aws-main{
+    padding-left: 20px;
+}
+.aws-main{                  /*From here the main post of the AMAZON AWS post the user can able to see*/
+    height: 60px;
+    width: 94.5%;
+    background-color: rgb(222, 236, 240);
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: -25px;
+   border-bottom: solid 1px grey;
+
+}
+.aws-main > h4{
+    padding: 15px;
+}
+.aws-main > p{
+    text-align: start;
+    margin-top: -35px;
+    font-size: 12px;
+    padding-left: 15px;
+}
+.aws-like{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 94.5%;
+}
+.aws-like > #reaction{
+    height: 40px;
+    padding-left: 20px;
+}
+.aws-like > p{
+    text-align: end;
+    margin-top: -20px;
+}
+.like{
+    height: 60px;
+    width: 94.5%;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    border-top: solid 1px rgb(179, 179, 179);
+    display: block;
+}
+.like > ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -30px;
+    
+}
+.like > ul > li{
+    list-style-type: none;
+   
+}
+#like-img{
+    height: 30px;
+}
+
+
+.main-img2{
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+    border-top: solid 10px rgb(211, 211, 211);
+}
+.main-img2 > img{
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+}
+.main-img2 > h3{
+    text-align: start;
+    padding-left: 120px;
+    margin-top: -90px;
+}
+.main-img2 > p{
+    text-align: start;
+    padding-left: 120px;
+}
+.infosys-posts{                /*From here the main post of the INFOSYS BPM post the user can able to see*/
+    display: flex;
+    justify-content: start;
+    padding-left: 10px;
+    padding-top: 5px;
+   
+    
+}
+.bpm-like{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 94.5%;
+}
+.bpm-like > #reaction{
+    height: 40px;
+    padding-left: 20px;
+}
+.bpm-like > p{
+    text-align: end;
+    margin-top: -20px;
+}
+#bpm-post{
+    width: 260px;
+    padding-left: 10px;
+}
+#bpm-pg{
+    text-align: start;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#bpm-main{
+    padding-left: 20px;
+}
+
+.like{
+    height: 60px;
+    width: 94.5%;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-top: solid 1px rgb(179, 179, 179);
+    display: block;
+}
+.like > ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -30px;
+    
+}
+.like > ul > li{
+    list-style-type: none;
+   
+}
+#like-img{
+    height: 30px;
+}
